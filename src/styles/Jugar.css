@@ -1,0 +1,35 @@
+.start-button {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #87aa9e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+
+}
+
+.start-button:hover {
+    border: none;
+    background-color: #769489;
+    transform: translateX(-50%) scale(1.05);
+}
+
+
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 100; 
+}
